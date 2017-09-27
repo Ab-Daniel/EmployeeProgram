@@ -1,1 +1,53 @@
+public class Employee 
+{
+	
+	public Employee()
+	{
+		name = "John Doe";
+		
+		salary = 0.0;
+	}
+	
+	public Employee(String aName, double aSalary)
+	{
+		name = aName;
+		salary = aSalary;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public Double getSalary()
+	{
+		return salary;
+	}
+	
+	private double salary;
+	
+	private String name;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
